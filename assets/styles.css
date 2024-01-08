@@ -1,9 +1,26 @@
 * {
     box-sizing: border-box;
+
 }
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+header img {
+    position: absolute;
+    left: 20px;
+    top: 107px;
+    width: 180px;
+    height: 170px;
+    display: flex;
+}
+
+.Past-Work-Titles {
+    position: absolute;
+    top: 520px;
+    font-size: 50px;
+}
+
+
 
 header h1 {
     text-align: center;
@@ -11,6 +28,11 @@ header h1 {
     padding: 10px;
     background-color: powderblue;
     margin-bottom: -10px;
+    flex-direction: row;
+}
+h2 {
+    text-align: center;
+    margin-top: 25px;
 }
 
 header p1, p2, p3 {
@@ -33,7 +55,6 @@ nav {
 }
 nav button {
     font-size: larger;
-    display: inline-block;
     display: inline-flex;
     border-radius: 10px;
     border-color: black;
@@ -41,13 +62,54 @@ nav button {
 
 }
 
+.head-paragraphs {
+    position: absolute;
+    top: 600px;
+    display: block;
+    font-size: 25px;
+
+}
 
 section h2 {
     font-size: 75px;
     border-color: black;
     border-radius: 10px;
+
 }
 
+/* .Challenge-1-Image {
+    position: absolute;
+    display: flex;
+    padding: 100px;
+    padding-bottom: 300px;
+    justify-self: flex-end;
+    width: 500px;
+    height: 500px
+
+} */
+
+.Challenge-1-Image img {
+    border: 5px solid black;
+    position: absolute;
+    left: 70px;
+    top: 700px;
+    width: 1750px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.home-button {
+    position: fixed;
+    top: 840px;
+    left: 1290px;
+    margin-right: 550px;
+    margin-left: 550px;
+    background-color: white;
+    
+}
 
 
 
